@@ -7,6 +7,7 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
   JoinColumn,
+  JoinTable,
 } from 'typeorm';
 import { User } from '../user/user.entity';
 
@@ -25,7 +26,7 @@ export class Role extends BaseEntity {
     type => User,
     user => user.roles,
   )
-  @JoinColumn()
+  @JoinTable({ name: 'user_roles' })
   users: User[];
 
   @Column({ type: 'varchar', default: 'ACTIVE', length: 8 })
