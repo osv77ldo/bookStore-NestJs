@@ -5,6 +5,7 @@ import {
   Column,
   CreateDateColumn,
   UpdateDateColumn,
+  OneToOne,
 } from 'typeorm';
 
 @Entity('user_details')
