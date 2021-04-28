@@ -7,7 +7,6 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
   JoinColumn,
-  JoinTable,
 } from 'typeorm';
 import { User } from '../user/user.entity';
 
