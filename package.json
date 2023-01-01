@@ -39,7 +39,7 @@
     "typeorm": "^0.2.24"
   },
   "devDependencies": {
-    "@nestjs/cli": "^7.5.4",
+    "@nestjs/cli": "^9.1.8",
     "@nestjs/schematics": "^7.0.0",
     "@nestjs/testing": "^7.0.0",
     "@types/dotenv": "^8.2.0",
@@ -58,7 +58,7 @@
     "prettier": "^1.19.1",
     "supertest": "^4.0.2",
     "ts-jest": "25.2.1",
-    "ts-loader": "^6.2.1",
+    "ts-loader": "^9.4.2",
     "ts-node": "^8.6.2",
     "tsconfig-paths": "^3.9.0",
     "typescript": "^3.7.4"
